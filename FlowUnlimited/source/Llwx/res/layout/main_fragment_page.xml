@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color" >
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/guidePages"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp" 
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"/>
+
+    <RelativeLayout
+        android:id="@+id/rv_top"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/viewGroup"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="20dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal" >
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="120dp" >
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="140dp"
+            android:layout_height="60dp"
+            android:background="@android:color/holo_red_light"
+            android:text="领流量 拿礼品" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="140dp"
+            android:layout_height="60dp"
+            android:layout_below="@+id/button1"
+            android:layout_marginTop="5dp"
+            android:background="@android:color/holo_orange_light"
+            android:text="流量加油站" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="140dp"
+            android:layout_height="60dp"
+            android:layout_below="@+id/button2"
+            android:layout_marginTop="5dp"
+            android:background="@android:color/holo_blue_light"
+            android:text="优惠专区" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="120dp"
+        android:layout_toRightOf="@+id/rv1" >
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="140dp"
+            android:layout_height="50dp"
+            android:background="@android:color/holo_purple"
+            android:text="邀请好友" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="140dp"
+            android:layout_height="80dp"
+            android:layout_below="@+id/button4"
+            android:layout_marginTop="5dp"
+            android:background="@android:color/holo_green_light"
+            android:text="开心玩应用" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="140dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/button5"
+            android:layout_marginTop="5dp"
+            android:background="@android:color/holo_blue_dark"
+            android:text="一键分享" />
+    </RelativeLayout>
+
+</RelativeLayout>

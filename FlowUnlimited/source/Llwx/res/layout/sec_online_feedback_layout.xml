@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    style="@style/sec_page_bg" 
+     >
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/sec_page_top_layout"
+        android:id="@+id/feedback_top" 
+        />
+
+      <Button
+          android:id="@+id/btn_submit"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_alignParentBottom="true"
+          android:layout_alignParentRight="true"
+          android:layout_marginBottom="22dp"
+          android:background="@drawable/suggestions_bg"
+          android:text="提交"
+          android:textColor="@color/white" />
+
+      <TextView
+          android:id="@+id/welcomebegin"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_alignLeft="@+id/feedback_top"
+          android:layout_below="@+id/feedback_top"
+          android:layout_marginTop="26dp"
+          android:gravity="center"
+          android:text="@string/welcomebegin" />
+
+      <ImageView
+          android:id="@+id/center_face"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_centerHorizontal="true"
+          android:layout_centerVertical="true"
+          android:src="@drawable/buy_flow_success_face" />
+
+      <EditText
+          android:id="@+id/editText1"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_above="@+id/btn_submit"
+          android:layout_alignParentRight="true"
+          android:layout_marginBottom="22dp"
+          android:hint="您的问题或建议" >
+          <requestFocus />
+      </EditText>
+      <TextView
+          android:id="@+id/suggestions"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_above="@+id/editText1"
+          android:layout_alignLeft="@+id/editText1"
+          android:gravity="center"
+          android:text="@string/suggestions"
+          android:textColor="#AFD4CB" />
+
+</RelativeLayout>

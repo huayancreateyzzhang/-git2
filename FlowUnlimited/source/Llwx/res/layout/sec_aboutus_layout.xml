@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    style="@style/sec_page_bg" 
+    android:gravity="center_horizontal">
+    <include 
+         android:layout_width="match_parent"
+          android:layout_height="0px"
+         android:layout_weight="1.5"
+         layout="@layout/sec_page_top_layout"
+        />
+    <ImageView 
+         android:layout_marginTop="30px"
+         android:layout_width="wrap_content"
+          android:layout_height="0px"
+         android:layout_weight="3.5"
+         android:src="@drawable/dlg_icon"
+        />
+    <TextView 
+         android:layout_marginTop="10px"
+         android:layout_width="match_parent"
+          android:layout_height="0px"
+         android:layout_weight="0.5"
+         android:text="流量大爆炸 v2.2"
+         android:gravity="center"
+        />
+    <View 
+         android:layout_marginTop="10px"
+         android:layout_marginLeft="30px"
+         android:layout_marginRight="30px"
+         android:layout_width="match_parent"
+         android:layout_height="1dip"
+         android:background="@color/gery_divider"        
+        />
+    
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_marginTop="20px"
+        android:layout_weight="2.5"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="100px"
+            android:layout_height="100px"
+            android:src="@drawable/weixin_icon" />
+        <ImageView
+            android:layout_width="100px"
+            android:layout_height="100px"
+            android:layout_marginLeft="20px"
+            android:layout_marginRight="20px"
+            android:src="@drawable/sina_weibo_icon" />
+
+        <ImageView
+            android:layout_width="100px"
+            android:layout_height="100px"
+            android:src="@drawable/tencent_weibo_icon" />
+    </LinearLayout>
+
+    <View 
+         android:layout_marginTop="20px"
+         android:layout_marginLeft="50px"
+         android:layout_marginRight="50px"
+         android:layout_width="match_parent"
+         android:layout_height="1dip"
+         android:background="@color/gery_divider" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20px"
+        android:gravity="center"
+        android:text="&lt;&lt;流量大爆炸使用服务协议&gt;&gt;"
+        android:textColor="@color/blue" />
+
+     <TextView
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="20px"
+         android:gravity="center"
+         android:text="安徽电信&amp;华研科技  版权所有" />
+
+      <TextView
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="20px"
+          android:gravity="center"
+          android:text="copy right huayantek all right reserved" />
+
+      <ImageView 
+           android:layout_marginTop="20px"
+           android:layout_width="wrap_content"
+           android:layout_height="0px"
+           android:layout_weight="1.8"
+           android:src="@drawable/dlg_icon"
+          />
+      
+     <View 
+         android:layout_width="match_parent"
+         android:layout_height="0px"
+         android:layout_weight="4"
+         />
+</LinearLayout>

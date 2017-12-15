@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">流量无限</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="welcomebegin">欢迎您参加用户小组调查，流量大爆炸的成长离不开你的帮助，我们真诚期待您的建议</string>
+    <string name="suggestions">您提的宝贵意见，在这里可以看到我们的回复哦!</string>
+    <string name="rule1">连续签到1-3天，每天可领取1颗智慧豆;</string>
+    <string name="rule2">连续签到3-7天，每天可领取2颗智慧豆;</string>
+    <string name="rule3">连续签到8-15天，每天可领取3颗智慧豆;</string>
+    <string name="rule4">连续签到16天，每天可领取4颗智慧豆;</string>   
+    <string name="rule_attention">如果中途未签到，则连续签到天数重新计算，小伙伴们要坚持住哦！</string>
+    <string name="qqpay_introduce">介绍：\n可用于购买腾讯素有包月服务，游戏\n道具及点券。\n立即购买，立即购买享有腾讯精彩服务，成为\n炫酷大人。</string>
+    <string name="buyingpatterns">购买方式</string>
+    <string name="qq_username">&#160;&#160;&#160;QQ账号</string>
+    <string name="phone_no">手机号码</string>
+    <string name="buy_count">购买数量</string>
+    <string name="pay_cuont">付款金额</string>
+    <string name="security_code">验证码</string>
+    <string name="get_securitycode">获取验证码</string>
+    <string name="confirm_buy">确认购买</string>
+    <string name="kingdly_reminder">
+            温馨提示：\n1:由于腾讯官方价格调整，Q币充值字10月1日上浮至95折\n2:Q币充值每次最多充40元，每月最多100元。
+            \n3:原价Q币可获对等智慧豆奖励，充10Q币可获得10智慧豆。\n4:支付金额在当月话费中扣除，购买后不能退够。
+    </string>
+    <string name="want_register">我要注册</string>
+    <string name="user_no">用户号码:</string>
+    <string name="sample_phoneno_register">例：18912345678←11位天翼手机号码</string>
+    <string name="send_again">如一分钟未收到，请点击重新获取</string>
+    <string name="confirm_open">确认开通</string>
+    <string name="kind_reminder">温馨提示</string>
+    <string name="tariff_description">2.资费说明：尊敬的用户，您即将选择中国电信提供的彩铃服务，该服务包月费每月3元。</string>
+    <string name="sms_way">2.短信开通方式，您可以发送KT到1000按照提示操作</string>
+    <string name="sms_tip">信息提示</string>
+    <string name="ringtone_cancel">3.彩铃退订方式，请咨询1000号货到联通营业厅办理</string>
+    
+    
+    
+    
+
+</resources>

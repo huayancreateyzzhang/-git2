@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/main_sec_qq_and_ringtone_top_layou" />
+    <ScrollView android:layout_width="match_parent"
+        android:layout_height="wrap_content">"
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/qqgrey"
+        android:orientation="vertical"
+        android:paddingLeft="15px"
+        android:paddingRight="15px"
+        android:paddingTop="5px" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="4"
+            android:orientation="horizontal"
+            android:gravity="center_vertical" >
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/qq" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6px"
+                android:text="@string/qqpay_introduce"
+                android:textColor="@color/qqintrodun_text_color"
+                android:textSize="10sp" />
+
+        </LinearLayout>
+        <include
+            android:layout_width="fill_parent"
+            android:layout_height="2px"
+            android:layout_marginTop="20px"
+            layout="@layout/line" />
+        <LinearLayout
+            android:layout_width="match_parent"
+             android:layout_height="0px"
+            android:layout_weight="1"
+            android:orientation="horizontal" 
+            android:layout_marginTop="20px">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/buyingpatterns"
+                android:textColor="@color/qqintrodun_text_color" 
+                android:textSize="10sp"/>
+           
+            <RadioGroup 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="10px"
+                >
+                <RadioButton 
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="95折"
+                     android:button="@null" 
+                     android:textColor="@color/qqintrodun_text_color" 
+                     android:drawableLeft="@drawable/rediobutton_bg" 
+                     android:textSize="10sp"           
+                    />
+                <RadioButton 
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="原价送智慧豆"
+                     android:button="@null" 
+                     android:textColor="@color/qqintrodun_text_color" 
+                     android:drawableLeft="@drawable/rediobutton_bg"  
+                     android:textSize="10sp"          
+                    />
+            </RadioGroup>
+        </LinearLayout>        
+        <LinearLayout
+            android:layout_width="match_parent"
+             android:layout_height="0px"
+            android:layout_weight="1.5"
+            android:paddingTop="10px"
+             >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/phone_no"
+                android:textColor="@color/qqintrodun_text_color"
+                android:textSize="10sp" />
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.6"
+                android:inputType="phone" >
+
+                <requestFocus />
+            </EditText>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="1.5"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/qq_username"
+                android:textColor="@color/qqintrodun_text_color"
+                android:textSize="10sp" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                
+                android:layout_weight="0.56"
+                android:inputType="phone" >
+                <requestFocus />
+            </EditText>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="1.5"
+            android:orientation="horizontal"
+            android:gravity="center_vertical" >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/buy_count"
+                android:textColor="@color/qqintrodun_text_color"
+                android:textSize="10sp" />     
+           <ImageView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/reduce"
+               />          
+           <EditText
+                android:layout_width="100px"
+                android:layout_height="wrap_content"
+                android:inputType="phone"
+                android:layout_marginLeft="8px" >
+                <requestFocus />
+            </EditText>
+            <ImageView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/add"
+                android:layout_marginLeft="8px" 
+               />   
+    </LinearLayout>
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1.5"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        >
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pay_cuont"
+                android:textColor="@color/qqintrodun_text_color"
+                android:textSize="10sp" />   
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10元"
+                android:textColor="@color/red"
+                android:textSize="10sp" />
+      <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="（赠送10"
+                android:textColor="@color/red"
+                android:textSize="10sp" /> 
+     <ImageView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/dd2"
+         /> 
+    <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="）"
+                android:textColor="@color/red"
+                android:textSize="10sp" />             
+    </LinearLayout>    
+     <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1.5"
+        android:orientation="horizontal"
+        >
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/security_code"
+                android:textColor="@color/qqintrodun_text_color"
+                android:textSize="10sp" />
+        <EditText
+                android:layout_width="100px"
+                android:layout_height="wrap_content"
+                android:inputType="phone"
+                android:layout_marginLeft="8px" >
+                <requestFocus />
+        </EditText>
+        <Button 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/get_securitycode"
+                android:textColor="@color/qqintrodun_text_color"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="18dp"
+        android:orientation="horizontal" >
+        <View 
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            />
+        <Button 
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:background="@color/confirm_buy_color" 
+            android:text="@string/confirm_buy"
+            android:textColor="@color/white" 
+            android:layout_weight="4"     
+            />
+         <View 
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            />
+    </LinearLayout>
+         <include
+            android:layout_width="fill_parent"
+            android:layout_height="2px"
+            layout="@layout/line" 
+            android:layout_marginTop="20px"/>    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0px"
+        android:layout_weight="5"
+        android:text="@string/kingdly_reminder"
+        android:textColor="@color/qqintrodun_text_color"
+        android:textSize="10sp"
+        android:layout_marginTop="20px" 
+        android:gravity="center_vertical"/>        
+ </LinearLayout>
+ </ScrollView>
+</LinearLayout>

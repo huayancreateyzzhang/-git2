@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    style="@style/sec_page_bg"
+    >
+    <include 
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         layout="@layout/sec_page_top_layout"        
+        />
+    <LinearLayout 
+         android:layout_width="match_parent"
+         android:layout_height="40px"
+         android:background="#F3EFEB"
+         android:orientation="horizontal"        
+         android:gravity="center"
+         android:layout_marginBottom="10px"
+         android:layout_marginTop="10px"
+        >
+        <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="尊敬的13514961142用户,您的智慧豆" 
+             />
+        <ImageView 
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:src="@drawable/attention_dd"
+            />
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="110个"             
+             />
+    </LinearLayout>
+    <ListView 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        android:cacheColorHint="#00000000"
+        style="@style/sec_listview_divider"     
+        android:background="@color/white"
+        
+        >
+        
+    </ListView>
+</LinearLayout>

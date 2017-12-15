@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/sec_bg" >
+    
+    <include 
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         layout="@layout/main_sec_qq_and_ringtone_top_layou"
+        />
+    <ScrollView 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        
+        >
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="149dp"
+           android:orientation="vertical" >
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="50dp"
+               android:background="@color/deep_red"
+               android:gravity="center"
+               android:orientation="vertical" >
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="@string/want_register"
+                   android:textColor="@color/white"
+                   android:textSize="25sp" />
+           </LinearLayout>
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="240dp"
+               android:orientation="vertical"
+               android:paddingLeft="25dp"
+               android:paddingTop="25dp" >
+
+               <RelativeLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                    >
+
+                   <EditText
+                       android:id="@+id/user_no_edit"
+                       android:layout_width="130dp"
+                       android:layout_height="wrap_content"
+                       android:layout_toRightOf="@+id/user_no"
+                       android:inputType="number" >
+
+                       <requestFocus />
+                   </EditText>
+
+                   <TextView
+                       android:id="@+id/user_no"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_alignBaseline="@+id/user_no_edit"
+                       android:layout_alignBottom="@+id/user_no_edit"
+                       android:layout_alignParentLeft="true"
+                       android:text="@string/user_no"
+                       android:textColor="@color/dark" />
+
+                   <TextView
+                       android:id="@+id/textView1"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_alignLeft="@+id/user_no_edit"
+                       android:layout_below="@+id/user_no_edit"
+                       android:text="@string/sample_phoneno_register"
+                       android:textColor="@color/light_red"
+                       android:textSize="10sp" />
+
+                   <EditText
+                       android:id="@+id/register_edit_id"
+                       android:layout_width="130dp"
+                       android:layout_height="wrap_content"
+                       android:layout_alignLeft="@+id/textView1"
+                       android:layout_below="@+id/textView1"
+                       android:layout_marginTop="24dp"
+                       android:inputType="number" >
+
+                       <requestFocus />
+                   </EditText>
+
+                   <TextView
+                       android:id="@+id/security_text_id"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_alignBaseline="@+id/register_edit_id"
+                       android:layout_alignBottom="@+id/register_edit_id"
+                       android:layout_alignParentLeft="true"
+                       android:text=" 验证码："
+                       android:textColor="@color/dark" />
+
+                   <TextView
+                       android:id="@+id/textView2"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_below="@+id/register_edit_id"
+                       android:layout_toRightOf="@+id/user_no"
+                       android:text="@string/send_again"
+                       android:textSize="10sp" />
+
+                   <Button
+                       android:layout_width="wrap_content"
+                       android:layout_height="30dp"
+                       android:layout_alignBaseline="@+id/register_edit_id"
+                       android:layout_alignBottom="@+id/register_edit_id"
+                       android:layout_toRightOf="@+id/register_edit_id"
+                       android:text="@string/get_securitycode"
+                       android:textColor="@color/grey"
+                       android:textSize="10sp" />
+
+                   <Button
+                       android:id="@+id/button1"
+                       android:layout_width="100dp"
+                       android:layout_height="30dp"
+                       android:layout_below="@+id/textView2"
+                       android:layout_marginTop="4dp"
+                       android:layout_toRightOf="@+id/security_text_id"
+                       android:background="@color/blue"
+                       android:text="@string/confirm_open"
+                       android:textColor="@color/white" />
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_alignBaseline="@+id/button1"
+                       android:layout_alignBottom="@+id/button1"
+                       android:layout_alignRight="@+id/textView2"
+                       android:text="3元每月"
+                       android:textColor="@color/light_red"
+                       android:textSize="10sp" />
+               </RelativeLayout>
+           </LinearLayout>
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:orientation="vertical"
+               
+                >
+
+               <RelativeLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:layout_marginLeft="20dp" >
+
+                   <ImageView
+                       android:id="@+id/love_img_id"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_alignParentLeft="true"
+                       android:layout_alignParentTop="true"
+          
+                       android:src="@drawable/love" />
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_centerVertical="true"
+                       android:layout_marginLeft="15dp"
+                       android:layout_toRightOf="@+id/love_img_id"
+                       android:text="@string/kind_reminder" 
+                       android:textColor="@color/white"
+                       />
+
+               </RelativeLayout>
+
+               <TextView
+                   android:layout_marginLeft="20dp"
+                   android:layout_marginTop="15dp"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="@string/tariff_description" />
+               
+               <include
+                   android:layout_width="match_parent"
+                   android:layout_height="1dp"
+                   android:layout_marginTop="15dp"
+                   layout="@layout/line" />
+               <TextView
+                   android:layout_marginLeft="20dp"
+                   android:layout_marginTop="15dp"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="@string/tariff_description" />
+                   <include
+                   android:layout_width="match_parent"
+                   android:layout_height="1dp"
+                   android:layout_marginTop="15dp"
+                   layout="@layout/line" />
+               <TextView
+                   android:layout_marginLeft="20dp"
+                   android:layout_marginTop="15dp"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="@string/ringtone_cancel" />
+           </LinearLayout>
+       </LinearLayout>
+        
+    </ScrollView>
+    
+    
+    
+    
+    
+    
+    
+
+</LinearLayout>

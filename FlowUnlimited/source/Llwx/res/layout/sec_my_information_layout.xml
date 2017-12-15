@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    style="@style/sec_page_bg">   
+  
+   <include 
+       android:layout_width="fill_parent"
+       android:layout_height="0px"
+       android:layout_weight="1.5"
+       layout="@layout/sec_page_top_layout"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"   
+        android:layout_weight="8"    
+        android:orientation="vertical"
+        android:paddingLeft="10px"
+        android:paddingRight="10px"
+        android:paddingTop="20px" >        
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:background="@drawable/up_photo_shape"
+            >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/app_icon_default" />
+            <TextView 
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="上传头像"
+                android:layout_marginLeft="10px"
+                />            
+               <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/abc_ic_clear_search_api_holo_light" />           
+        </LinearLayout>
+        <LinearLayout 
+                 
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="1.6"
+                android:orientation="vertical"
+                android:background="@drawable/up_photo_shape"
+                android:layout_marginTop="10px"
+                android:paddingTop="20px"
+                          >
+                <TextView 
+                    android:layout_width="match_parent"
+                    android:layout_height="0dip"
+                    android:layout_weight="1"
+                    android:text="用户名:"
+                    android:textSize="11sp"
+                    android:layout_marginLeft="10px"
+                    android:gravity="center_vertical"
+                  
+                    />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dip"
+                    android:background="#E1E6F6"
+                    />
+                <LinearLayout 
+                    android:layout_height="0dip"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    >
+                
+                 <TextView 
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="性别"
+                    android:textSize="11sp"
+                    android:layout_marginLeft="10px"
+                    /> 
+                    <RadioGroup 
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        
+                        >
+                        <RadioButton 
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="男"
+                             android:textSize="11sp"
+                            
+                            />
+                       <RadioButton 
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="女"
+                             android:textSize="11sp"
+                            />
+                    </RadioGroup>
+                  
+                </LinearLayout>   
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dip"
+                    android:background="#E1E6F6"
+                    />  
+             <TextView 
+                   android:layout_width="wrap_content"
+                    android:layout_height="0dip"
+                    android:layout_weight="1"
+                    android:text="手机号：13514961142"
+                    android:textSize="11sp"
+                    android:layout_marginLeft="10px"
+                    android:gravity="center_vertical"/>
+        </LinearLayout>              
+    </LinearLayout>
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1"
+        android:layout_marginTop="10px" >        
+        <TextView 
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"             
+             android:text="管理收货地址"             
+             android:gravity="center"
+            android:background="@color/white"
+            />      
+    </LinearLayout>    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1"
+        android:background="#50C964"
+        android:layout_marginTop="20px" >        
+        <TextView 
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"             
+             android:text="保存"
+             android:textColor="#fff"
+             android:gravity="center"
+            />
+    </LinearLayout>   
+    <View 
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="3"
+        />
+
+</LinearLayout>

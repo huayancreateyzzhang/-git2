@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    style="@style/sec_page_bg" >
+    <include 
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         layout="@layout/sec_page_top_layout"
+        />
+    <ListView
+        android:layout_marginTop="10px"  
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        android:fadingEdge="none"
+        style="@style/sec_listview_divider"
+        >
+    </ListView>
+    
+
+</LinearLayout>

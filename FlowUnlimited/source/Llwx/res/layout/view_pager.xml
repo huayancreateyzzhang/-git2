@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff" >
+
+    <RelativeLayout
+        android:id="@+id/head_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="120dp"
+        android:background="@android:color/darker_gray"
+        android:layout_margin="5dp" >
+
+        <LinearLayout
+            android:id="@+id/linear_1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/bt_mainview_left_menu"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:background="@android:color/holo_orange_dark"
+                android:textColor="@android:color/holo_green_dark"
+                android:text="左菜单" />
+
+            <Button
+                android:id="@+id/bt_mainview_sign"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="140dp"
+                 android:background="@android:color/holo_orange_dark"
+                   android:textColor="@android:color/holo_green_dark"
+                android:text="已签到" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/editText1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linear_1"
+            android:textColor="#ffffff"
+            android:text="已使用：0.4M;剩余量：349.6M" >
+        </TextView>
+    </RelativeLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/head_layout"
+        android:background="#B847FF" >
+    </android.support.v4.view.ViewPager>
+
+</RelativeLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:paddingLeft="20px"
+    android:paddingTop="10px"
+    >
+    <ImageView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ci_ri_qian_dao"
+        android:id="@+id/teach_img"
+        />
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20px"
+        android:text="如何兑换流量"
+        android:layout_toRightOf="@+id/teach_img"
+        android:id="@+id/teach_ask"
+        android:textColor="@color/drckdish"
+        />
+     <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:layout_marginTop="10px" 
+        android:text="点击进入流量"
+        android:layout_below="@+id/teach_ask"
+        android:layout_alignLeft="@+id/teach_img"
+        android:id="@+id/teah_answer"
+        android:textColor="@color/dark"
+        android:textSize="20sp"
+       />
+
+      <ImageView
+          android:layout_width="100px"
+          android:layout_height="50px"
+          android:layout_alignParentRight="true"
+          android:layout_below="@+id/teah_answer"
+          android:layout_marginRight="10px"
+          android:layout_marginTop="10px"
+          android:src="@drawable/go_index_btn" />
+
+</RelativeLayout>

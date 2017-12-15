@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10px" 
+    >
+    <TextView 
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="1,"
+         android:textColor="@color/blue"
+         android:textSize="25sp"
+         android:id="@+id/about_us_index"
+        />
+      <TextView 
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="10px"
+         android:text="为什么激活应用没领到智慧豆"
+         android:id="@+id/user_qs"
+         android:layout_toRightOf="@+id/about_us_index"
+         android:textSize="15sp"
+        />
+       <TextView 
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="15px"
+         android:text="回复，你好首先激活必须在流量大爆炸下载的回复，
+                       你好首先激活必须在流量大爆炸下载的"
+         android:layout_below="@+id/user_qs"
+         android:layout_alignLeft="@+id/user_qs"
+         android:textColor="@color/grey"
+         android:textSize="13sp"
+       
+        />
+    
+    
+
+</RelativeLayout>
